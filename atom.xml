@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Never</title>
+  
+  <subtitle>“吾生也有涯，而知也无涯。以有涯随无涯，殆已！</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-04-26T01:52:11.185Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>zwt</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java随笔01</title>
+    <link href="http://yoursite.com/2020/04/25/java%E9%9A%8F%E7%AC%9401/"/>
+    <id>http://yoursite.com/2020/04/25/java%E9%9A%8F%E7%AC%9401/</id>
+    <published>2020-04-25T02:45:25.000Z</published>
+    <updated>2020-04-26T01:52:11.185Z</updated>
+    
+    <summary type="html">
+    
+      &lt;img src=&quot;http://q8pgu6ogr.bkt.clouddn.com/static/images/java.png&quot;&gt;
+&lt;h2 id=&quot;程序入口文件&quot;&gt;&lt;a href=&quot;#程序入口文件&quot; class=&quot;headerlink&quot; title=&quot;程序入口文件&quot;&gt;&lt;/a&gt;程序入口文件&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;一个文件中只能有一个 &lt;code&gt;public class&lt;/code&gt;，且这个 class 的名字必须要与文件名一样&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;public class&lt;/code&gt; 中的 &lt;code&gt;main&lt;/code&gt; 函数是程序的入口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;标识符&quot;&gt;&lt;a href=&quot;#标识符&quot; class=&quot;headerlink&quot; title=&quot;标识符&quot;&gt;&lt;/a&gt;标识符&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;命名规则&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;标识符可以包含&lt;code&gt;英文字母&lt;/code&gt;、&lt;code&gt;数字&lt;/code&gt;、&lt;code&gt;_&lt;/code&gt;、&lt;code&gt;$符号&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;标识符不能以数字开头&lt;/li&gt;
+&lt;li&gt;标识符不能是关键字&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;命名规范&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;类名：首字母大写，后面每个单词首字母大写（大驼峰式）&lt;/li&gt;
+&lt;li&gt;方法名、变量名：首字母小写，后面每个单词首字母大写（小驼峰式）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="java" scheme="http://yoursite.com/categories/java/"/>
+    
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>java随笔01</title>
+    <url>/2020/04/25/java%E9%9A%8F%E7%AC%9401/</url>
+    <content><![CDATA[<img src="http://q8pgu6ogr.bkt.clouddn.com/static/images/java.png">
+<h2 id="程序入口文件"><a href="#程序入口文件" class="headerlink" title="程序入口文件"></a>程序入口文件</h2><ul>
+<li>一个文件中只能有一个 <code>public class</code>，且这个 class 的名字必须要与文件名一样</li>
+<li><code>public class</code> 中的 <code>main</code> 函数是程序的入口</li>
+</ul>
+<h2 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h2><ul>
+<li><strong>命名规则</strong><ul>
+<li>标识符可以包含<code>英文字母</code>、<code>数字</code>、<code>_</code>、<code>$符号</code></li>
+<li>标识符不能以数字开头</li>
+<li>标识符不能是关键字</li>
+</ul>
+</li>
+<li><strong>命名规范</strong><ul>
+<li>类名：首字母大写，后面每个单词首字母大写（大驼峰式）</li>
+<li>方法名、变量名：首字母小写，后面每个单词首字母大写（小驼峰式）</li>
+</ul>
+</li>
+</ul>
+<a id="more"></a>
+
+<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p>Java 中的数据类型分为基本数据类型和引用数据类型</p>
+<ul>
+<li><p><strong>基本数据类型</strong></p>
+<ul>
+<li>整数型：byte、short、int、long</li>
+<li>浮点型：float、double</li>
+<li>字符型：char</li>
+<li>布尔型：true、false<blockquote>
+<p>java 中默认的整型是 <code>int</code>，浮点型是 <code>double</code>。byte 类型是用一个字节保存，取值范围在 (-127~128)，short 类型用两个字节保存</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">byte</span> num2 = <span class="number">120</span>;</span><br><span class="line"><span class="keyword">int</span> num1 = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">long</span> num4 = <span class="number">300000000333L</span>;</span><br><span class="line"><span class="keyword">float</span> num3 = <span class="number">2.5F</span>;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p><strong>引用数据类型</strong></p>
+<ul>
+<li>字符串</li>
+<li>数组</li>
+<li>类</li>
+<li>接口</li>
+<li>Lambda 等</li>
+</ul>
+</li>
+</ul>
+<h2 id="数据类型转换"><a href="#数据类型转换" class="headerlink" title="数据类型转换"></a>数据类型转换</h2><p>当数据类型不一样时，会发生数据类型转换</p>
+<ul>
+<li>自动转换：不需要处理，数据类型自动转换（数据范围从小到大）</li>
+<li>强制转换：代码需要进行特殊的类型，不能自动转换<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> num = (<span class="keyword">int</span>)<span class="number">100L</span>;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+  </entry>
+</search>
